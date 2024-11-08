@@ -1,0 +1,201 @@
+survival_rate,year,race,gender,cancer_type
+0.559,1977,All races,females,All cancers
+0.55,1980,All races,females,All cancers
+0.551,1983,All races,females,All cancers
+0.576,1986,All races,females,All cancers
+0.596,1989,All races,females,All cancers
+0.609,1992,All races,females,All cancers
+0.618,1995,All races,females,All cancers
+0.636,1998,All races,females,All cancers
+0.657,2001,All races,females,All cancers
+0.669,2006,All races,females,All cancers
+0.691,2013,All races,females,All cancers
+0.417,1977,All races,males,All cancers
+0.431,1980,All races,males,All cancers
+0.452,1983,All races,males,All cancers
+0.472,1986,All races,males,All cancers
+0.511,1989,All races,males,All cancers
+0.591,1992,All races,males,All cancers
+0.608,1995,All races,males,All cancers
+0.63,1998,All races,males,All cancers
+0.663,2001,All races,males,All cancers
+0.681,2006,All races,males,All cancers
+0.692,2013,All races,males,All cancers
+0.489,1977,All races,total,All cancers
+0.49,1980,All races,total,All cancers
+0.502,1983,All races,total,All cancers
+0.524,1986,All races,total,All cancers
+0.553,1989,All races,total,All cancers
+0.599,1992,All races,total,All cancers
+0.613,1995,All races,total,All cancers
+0.633,1998,All races,total,All cancers
+0.66,2001,All races,total,All cancers
+0.675,2006,All races,total,All cancers
+0.692,2013,All races,total,All cancers
+,1963,Black,females,All cancers
+,1973,Black,females,All cancers
+0.462,1977,Black,females,All cancers
+0.456,1980,Black,females,All cancers
+0.444,1983,Black,females,All cancers
+0.455,1986,Black,females,All cancers
+0.477,1989,Black,females,All cancers
+0.482,1992,Black,females,All cancers
+0.506,1995,Black,females,All cancers
+0.521,1998,Black,females,All cancers
+0.543,2001,Black,females,All cancers
+0.558,2006,Black,females,All cancers
+0.603,2013,Black,females,All cancers
+,1963,Black,males,All cancers
+,1973,Black,males,All cancers
+0.327,1977,Black,males,All cancers
+0.333,1980,Black,males,All cancers
+0.342,1983,Black,males,All cancers
+0.355,1986,Black,males,All cancers
+0.389,1989,Black,males,All cancers
+0.476,1992,Black,males,All cancers
+0.545,1995,Black,males,All cancers
+0.579,1998,Black,males,All cancers
+0.611,2001,Black,males,All cancers
+0.636,2006,Black,males,All cancers
+0.659,2013,Black,males,All cancers
+0.27,1963,Black,total,All cancers
+0.31,1973,Black,total,All cancers
+0.39,1977,Black,total,All cancers
+0.39,1980,Black,total,All cancers
+0.388,1983,Black,total,All cancers
+0.402,1986,Black,total,All cancers
+0.43,1989,Black,total,All cancers
+0.479,1992,Black,total,All cancers
+0.528,1995,Black,total,All cancers
+0.552,1998,Black,total,All cancers
+0.58,2001,Black,total,All cancers
+0.599,2006,Black,total,All cancers
+0.633,2013,Black,total,All cancers
+,1963,White,females,All cancers
+,1973,White,females,All cancers
+0.565,1977,White,females,All cancers
+0.556,1980,White,females,All cancers
+0.56,1983,White,females,All cancers
+0.586,1986,White,females,All cancers
+0.606,1989,White,females,All cancers
+0.621,1992,White,females,All cancers
+0.628,1995,White,females,All cancers
+0.647,1998,White,females,All cancers
+0.668,2001,White,females,All cancers
+0.682,2006,White,females,All cancers
+0.701,2013,White,females,All cancers
+,1963,White,males,All cancers
+,1973,White,males,All cancers
+0.427,1977,White,males,All cancers
+0.443,1980,White,males,All cancers
+0.466,1983,White,males,All cancers
+0.486,1986,White,males,All cancers
+0.528,1989,White,males,All cancers
+0.608,1992,White,males,All cancers
+0.62,1995,White,males,All cancers
+0.641,1998,White,males,All cancers
+0.675,2001,White,males,All cancers
+0.694,2006,White,males,All cancers
+0.701,2013,White,males,All cancers
+0.39,1963,White,total,All cancers
+0.43,1973,White,total,All cancers
+0.498,1977,White,total,All cancers
+0.5,1980,White,total,All cancers
+0.513,1983,White,total,All cancers
+0.536,1986,White,total,All cancers
+0.567,1989,White,total,All cancers
+0.614,1992,White,total,All cancers
+0.624,1995,White,total,All cancers
+0.644,1998,White,total,All cancers
+0.672,2001,White,total,All cancers
+0.688,2006,White,total,All cancers
+0.701,2013,White,total,All cancers
+0.683,1977,All races,females,Bladder
+0.704,1980,All races,females,Bladder
+0.727,1983,All races,females,Bladder
+0.727,1986,All races,females,Bladder
+0.719,1989,All races,females,Bladder
+0.719,1992,All races,females,Bladder
+0.75,1995,All races,females,Bladder
+0.754,1998,All races,females,Bladder
+0.773,2001,All races,females,Bladder
+0.748,2006,All races,females,Bladder
+0.744,2013,All races,females,Bladder
+0.737,1977,All races,males,Bladder
+0.751,1980,All races,males,Bladder
+0.781,1983,All races,males,Bladder
+0.781,1986,All races,males,Bladder
+0.813,1989,All races,males,Bladder
+0.817,1992,All races,males,Bladder
+0.821,1995,All races,males,Bladder
+0.804,1998,All races,males,Bladder
+0.809,2001,All races,males,Bladder
+0.819,2006,All races,males,Bladder
+0.792,2013,All races,males,Bladder
+0.723,1977,All races,total,Bladder
+0.739,1980,All races,total,Bladder
+0.767,1983,All races,total,Bladder
+0.767,1986,All races,total,Bladder
+0.79,1989,All races,total,Bladder
+0.792,1992,All races,total,Bladder
+0.802,1995,All races,total,Bladder
+0.791,1998,All races,total,Bladder
+0.8,2001,All races,total,Bladder
+0.801,2006,All races,total,Bladder
+0.78,2013,All races,total,Bladder
+0.24,1963,Black,females,Bladder
+0.27,1973,Black,females,Bladder
+0.381,1977,Black,females,Bladder
+0.401,1980,Black,females,Bladder
+0.47,1983,Black,females,Bladder
+0.528,1986,Black,females,Bladder
+0.529,1989,Black,females,Bladder
+0.585,1992,Black,females,Bladder
+0.462,1995,Black,females,Bladder
+0.56,1998,Black,females,Bladder
+0.6,2001,Black,females,Bladder
+0.558,2006,Black,females,Bladder
+0.562,2013,Black,females,Bladder
+0.24,1963,Black,males,Bladder
+0.38,1973,Black,males,Bladder
+0.565,1977,Black,males,Bladder
+0.626,1980,Black,males,Bladder
+0.649,1983,Black,males,Bladder
+0.623,1986,Black,males,Bladder
+0.675,1989,Black,males,Bladder
+0.657,1992,Black,males,Bladder
+0.678,1995,Black,males,Bladder
+0.656,1998,Black,males,Bladder
+0.718,2001,Black,males,Bladder
+0.683,2006,Black,males,Bladder
+0.7,2013,Black,males,Bladder
+0.24,1963,Black,total,Bladder
+0.36,1973,Black,total,Bladder
+0.503,1977,Black,total,Bladder
+0.545,1980,Black,total,Bladder
+0.595,1983,Black,total,Bladder
+0.594,1986,Black,total,Bladder
+0.626,1989,Black,total,Bladder
+0.631,1992,Black,total,Bladder
+0.606,1995,Black,total,Bladder
+0.627,1998,Black,total,Bladder
+0.675,2001,Black,total,Bladder
+0.638,2006,Black,total,Bladder
+0.654,2013,Black,total,Bladder
+0.53,1963,White,females,Bladder
+0.6,1973,White,females,Bladder
+0.703,1977,White,females,Bladder
+0.723,1980,White,females,Bladder
+0.74,1983,White,females,Bladder
+0.736,1986,White,females,Bladder
+0.731,1989,White,females,Bladder
+0.731,1992,White,females,Bladder
+0.769,1995,White,females,Bladder
+0.759,1998,White,females,Bladder
+0.794,2001,White,females,Bladder
+0.76,2006,White,females,Bladder
+0.754,2013,White,females,Bladder
+0.53,1963,White,males,Bladder
+0.61,1973,White,males,Bladder
+0.743,1977,White,males,Bladder
+0.754,1980,White,males,Bladder
