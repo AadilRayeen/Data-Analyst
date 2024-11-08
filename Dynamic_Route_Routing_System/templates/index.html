@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Route Routing System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Predict Bus Delay</h1>
+        <form id="predict-form">
+            <label>Traffic Condition:</label>
+            <select id="TrafficCondition">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select><br>
+
+            <label>Road Condition:</label>
+            <select id="RoadCondition">
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+            </select><br>
+
+            <label>Weather Condition:</label>
+            <select id="WeatherCondition">
+                <option value="sunny">Sunny</option>
+                <option value="rainy">Rainy</option>
+                <option value="foggy">Foggy</option>
+            </select><br>
+
+            <label>Bus Capacity (10-50):</label>
+            <input type="number" id="BusCapacity" min="10" max="50"><br>
+
+            <label>Average Speed (20-60 km/h):</label>
+            <input type="number" id="AvgSpeed" min="20" max="60"><br>
+
+            <label>Distance to Destination (5-30 km):</label>
+            <input type="number" id="DistanceToDestination" min="5" max="30"><br>
+
+            <label>Time of Day:</label>
+            <select id="TimeOfDay">
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+                <option value="night">Night</option>
+            </select><br>
+
+            <label>Day Type:</label>
+            <select id="DayType">
+                <option value="weekday">Weekday</option>
+                <option value="weekend">Weekend</option>
+            </select><br>
+
+            <button type="submit">Predict Delay</button>
+        </form>
+        <h2 id="result"></h2>
+    </div>
+
+    <script>
+        document.getElementById('predict-form').addEventListener('submit', async function (event) {
+            event.preventDefault();
+
+            const formData = {
+                TrafficCondition: document.getElementById('TrafficCondition').value,
+                RoadCondition: document.getElementById('RoadCondition').value,
+                WeatherCondition: document.getElementById('WeatherCondition').value,
+                BusCapacity: document.getElementById('BusCapacity').value,
+                AvgSpeed: document.getElementById('AvgSpeed').value,
+                DistanceToDestination: document.getElementById('DistanceToDestination').value,
+                TimeOfDay: document.getElementById('TimeOfDay').value,
+                DayType: document.getElementById('DayType').value
+            };
+
+            const response = await fetch('/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            });
+
+            const result = await response.json();
+            document.getElementById('result').innerText = `Predicted Delay: ${result.predicted_delay} minutes`;
+        });
+    </script>
+</body>
+</html>
